@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXA Blog</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #F9F9F9;
+      color: #222;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #1A1A2E !important;
+    }
+    .navbar-brand, .nav-link, .btn {
+      color: #fff !important;
+    }
+    .btn-subscribe {
+      background-color: #E94560;
+      border: none;
+    }
+    .btn-subscribe:hover {
+      background-color: #0F3460;
+    }
+    .category-badge {
+      background-color: #E94560;
+      color: #fff;
+      font-size: 0.8rem;
+      padding: 3px 8px;
+      border-radius: 5px;
+    }
+    .card {
+      border: none;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-light navbar-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-3" href="#"> <img class="img-fluid w-100" src="Img/nexa-logo.png" style="width:fit-content; height:60px; background-color:#D9FFF7; align-self:center; border-radius:100px;" alt="" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Technology</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Lifestyle</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"> <a href="#" class="nav-link">Football</a></li>
+      </ul>
+      <button class="btn btn-subscribe ms-3">Subscribe</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Featured Section -->
+<div class="container my-5">
+  <div class="row g-4">
+    <div class="col-lg-8">
+      <div class="card bg-dark text-white">
+        <img src="img/blog.jpeg" class="card-img" alt="...">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <span class="category-badge mb-2">News</span>
+          <h1 class=" fw-bold card-title" style="font-size:50px; " >Stay ahead of the headlines</h1>
+          <p class=" fw-bold card-text"><small>Nigeria’s Top Stories, Verified & Official.
+Breaking News. Trusted Sources. Real Insights.
+Your Daily Dose of Nigeria’s Most Important Stories – Straight from the Source.</small></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card mb-3">
+        <img src="img/crypto.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="category-badge">Technology</span>
+          <h5 class="card-title mt-2">Top 10 Tech Trends in 2025</h5>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="img/digital-health.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="category-badge">Health</span>
+          <h5 class="card-title mt-2">The Future of Digital Health</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Blog Grid -->
+<div class="container my-5">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/crypto2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="category-badge">Finance</span>
+          <h5 class="card-title mt-2">Understanding Crypto in 2025</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+         <img <a href="#" src="img/small-businesses.jpeg" class="card-img-top" alt="..."  </a> 
+        <div class="card-body">
+          <span class="category-badge">Startup</span>
+          <h5 class="card-title mt-2">How Small Ideas Become Giants</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/ai-tool.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <span class="category-badge">AI</span>
+          <h5 class="card-title mt-2">AI Tools That Will Change Blogging</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold">Explore Categories</h2>
+    <div class="row g-4">
+      
+      <!-- Tech -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card shadow-sm border-0 h-100">
+          <img src="img/tech.jpeg" class="card-img-top"alt="Tech">
+          <div class="card-body text-center fw-bold">
+            <h5 class="card-title fw-semibold">Tech</h5>
+            <p class="card-text text-muted">Latest trends and updates in technology.</p>
+            <a href="#" class="btn btn-primary btn-sm">View Posts</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- news -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card shadow-sm border-0 h-100">
+          <img src="img/news.jpeg" class="card-img-top" alt="Tech">
+          <div class="card-body text-center fw-bold">
+            <h5 class="card-title fw-semibold">News</h5>
+            <p class="card-text text-muted">Explore Latest News in different part of the world</p>
+            <a href="news.today.html" class="btn btn-primary btn-sm">View Posts</a>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Business -->
+      <div class="col-md-4 col-lg-3">
+        <div class="fw-bold card shadow-sm border-0 h-100">
+          <img src="img/business.jpeg" class="card-img-top" alt="Business">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Business</h5>
+            <p class="card-text text-muted">Insights, guides, and strategies for growth.</p>
+            <a href="#" class="btn btn-primary btn-sm">View Posts</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Football -->
+      <div class="col-md-4 col-lg-3">
+        <div class="fw-bold card shadow-sm border-0 h-100">
+          <img src="img/football.jpeg" class="card-img-top" alt="Football">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-semibold">Football</h5>
+            <p class="card-text text-muted">Latest football news, matches, and analysis.</p>
+            <a href="#" class="btn btn-primary btn-sm">View Posts</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-light py-4">
+  <div class="container text-center">
+    <p class="mb-1">&copy; 2025 NEXA Blog. All Rights Reserved.</p>
+    <small>Built with ❤️ using Bootstrap</small>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
