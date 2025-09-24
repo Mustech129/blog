@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: mustech129/blog
-  branch: main
+  branch: gh-pages
   auth_type: "implicit"
   client_id: "Ov23liqgsTF2XLYholLJ"
   client_secret: "30dd7df7f12f062b397b9480760550cc0f8be1ce"
