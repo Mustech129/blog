@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: mustech129/blog
-  branch: gh-pages
-  auth_type: "implicit"
-  client_id: "Ov23liqgsTF2XLYholLJ"
-  client_secret: "30dd7df7f12f062b397b9480760550cc0f8be1ce"
+  repo: mustech129/blog   # your GitHub repo
+  branch: main            # or your deployment branch
+  auth_type: implicit     # must be implicit for Netlify
+  base_url: ""            # leave empty for Netlify
+
 
 media_folder: "static/images"
 public_folder: "/images"
