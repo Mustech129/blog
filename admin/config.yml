@@ -4,7 +4,7 @@ backend:
   branch: main
   auth_type: "implicit"
   client_id: "Ov23liqgsTF2XLYholLJ"
-  client_secret: "3b9a0a4c1611091e0689aac83c632ef66025b277"
+  client_secret: "30dd7df7f12f062b397b9480760550cc0f8be1ce"
 
 media_folder: "static/images"
 public_folder: "/images"
