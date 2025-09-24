@@ -1,7 +1,11 @@
 backend:
   name: github
-  repo: mustech129/blog  # Replace with your GitHub username and repo
-  branch: main                  # The branch where posts will be saved
+  repo: mustech129/blog
+  branch: main
+  auth_type: "implicit"
+  client_id: "Ov23liqgsTF2XLYholLJ"
+  client_secret: "3b9a0a4c1611091e0689aac83c632ef66025b277"
+
 media_folder: "static/images"
 public_folder: "/images"
 
