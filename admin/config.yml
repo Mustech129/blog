@@ -1,7 +1,11 @@
 backend:
   name: github
-  repo: mustech129/novablog   # your repo name
-  branch: jekyll-setup       # branch with Jekyll
+  repo: mustech129/novablog   # your GitHub repo
+  branch: jekyll-setup        # branch with your Jekyll site
+  auth:
+    client_id: DdGdhGo2ltvDHgQxvcbo19Auin8Yxd7y
+    client_secret: pZJvnulZ7zIDFyBLmdgN6td1s7ecMXT-0_KJ-aMOAfxUoeNHELWfXWZo5G3oNsSC
+
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
