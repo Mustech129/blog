@@ -1,14 +1,9 @@
 backend:
-  name: auth0
-  auth_domain: novablog-admin.us.auth0.com
-  client_id: DdGdhGo2ltvDHgQxvcbo19Auin8Yxd7y
-  client_secret: pZJvnulZ7zIDFyBLmdgN6td1s7ecMXT-0_KJ-aMOAfxUoeNHELWfXWZo5G3oNsSC
+  name: github
+  repo: mustech129/novablog
   branch: jekyll-setup
-
-
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
-
 collections:
   - name: "posts"
     label: "Posts"
