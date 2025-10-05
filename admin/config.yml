@@ -1,20 +1,17 @@
 backend:
   name: github
-  repo: mustech129/blog   # your GitHub repo
-  branch: main            # or your deployment branch
-  auth_type: implicit     # must be implicit for Netlify
-  base_url: ""            # leave empty for Netlify
-
-
-media_folder: "static/images"
-public_folder: "/images"
+  repo: mustech129/novablog   # your repo name
+  branch: jekyll-setup       # branch with Jekyll
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
-  - name: "blog"
-    label: "Blog Posts"
-    folder: "content/posts"
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { name: "title", label: "Title" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "body", label: "Body", widget: "markdown" }
